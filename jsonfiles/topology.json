@@ -1,0 +1,31 @@
+ {
+  "id": "1",
+  "components": [
+    {
+      "resistance": {
+        "default": 1.3,
+        "min": 1.2,
+        "max": 2.0
+      },
+      "type": "resistor",
+      "id": "2",
+      "netlist": {
+        "t1Created": "vddCreated",
+        "t2Created": "n1Created"
+      }
+    },
+    {
+      "m(l)": {
+        "default": 1.3,
+        "min": 1.1,
+        "max": 2.0
+      },
+      "type": "nmos",
+      "id": "1",
+      "netlist": {
+        "t1Created": "vddCreated",
+        "t2Created": "n1Created"
+      }
+    }
+  ]
+}
